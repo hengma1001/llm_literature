@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import argparse
 
-from foobar.foo import bar
+from llm_lit.foo import bar
 
 
 def main() -> int:
