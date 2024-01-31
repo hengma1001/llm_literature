@@ -3,7 +3,7 @@ requires = ["setuptools>=64.0", "setuptools_scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "foobar"
+name = "llm_lit"
 version = "0.1.0"
 authors = [
     {name = "foobar author"},
@@ -21,6 +21,9 @@ classifiers = [
 ]
 dependencies = [
     "requests",
+    "langchain",
+    "transformers[torch]",
+    "pydantic",
 ]
 
 [project.urls]
